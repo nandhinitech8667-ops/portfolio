@@ -1,5 +1,5 @@
 import React from "react";
-import "./Experience.css";
+import "./experience.css";
 import { Briefcase, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
