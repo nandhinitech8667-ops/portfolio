@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import "./about.css";
+import "./About.css";
 
 const containerVariant = {
   hidden: {},
