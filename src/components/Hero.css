@@ -1,0 +1,108 @@
+.hero-section {
+  min-height: 100vh;
+  padding-top: 140px;
+  padding-left: 8%;
+  padding-right: 5%;
+
+  display: flex;
+  align-items: center;
+}
+
+/* WRAPPER */
+
+.hero-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+/* LEFT CONTENT */
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* ROLE TEXT */
+
+.hero-role-text {
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #ff8c5a;
+}
+
+/* MAIN TITLE */
+
+.hero-title {
+  font-size: 82px;
+  line-height: 1.05;
+  font-weight: 800;
+}
+
+.hero-title span {
+  color: #ff8c5a;
+}
+
+/* DESCRIPTION */
+
+.hero-desc {
+  max-width: 520px;
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.75;
+}
+
+/* BUTTONS */
+
+.hero-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #ff8c5a;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* RIGHT EMPTY SIDE */
+
+.hero-right {
+  width: 100%;
+}
+/* ===== FINAL SOCIAL ICON STYLE ===== */
+
+.hero-social-buttons {
+  display: flex !important;
+  gap: 60px !important;   /* 👈 change gap here */
+  margin-bottom: 40px;
+}
+
+.social-btn {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  background-color: #1f1f1f !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.3s ease !important;
+}
+
+.social-btn:hover {
+  background-color: #ff7a18 !important;
+  transform: translateY(-6px);
+}
