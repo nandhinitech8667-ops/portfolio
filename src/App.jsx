@@ -1,4 +1,4 @@
-import Navigation from "./components/Navigation";
+ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -8,10 +8,23 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollProgress from "./components/ScrollProgress";
 
-export default function App() {
+
+function App() {
   return (
-    <div style={{ color: "black", fontSize: "30px" }}>
-      Hello Nandhini 🚀
+    <div className="bg-black min-h-screen">
+
+      <ScrollProgress />
+      <Navigation />
+
+      <Hero />
+      <Projects />
+      <About />
+      <Experience />
+      <Contact />
+      <Footer />
+
     </div>
   );
 }
+
+export default App;
