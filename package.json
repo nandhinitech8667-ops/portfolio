@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nandhinitech8667-ops.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -24,6 +27,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.3",
     "autoprefixer": "^10.4.24",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18"
   }
