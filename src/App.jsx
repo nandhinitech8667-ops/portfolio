@@ -8,23 +8,10 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollProgress from "./components/ScrollProgress";
 
-
-function App() {
+export default function App() {
   return (
-    <div className="bg-black min-h-screen">
-
-      <ScrollProgress />
-      <Navigation />
-
-      <Hero />
-      <Projects />
-      <About />
-      <Experience />
-      <Contact />
-      <Footer />
-
+    <div style={{ color: "black", fontSize: "30px" }}>
+      Hello Nandhini 🚀
     </div>
   );
 }
-
-export default App;
