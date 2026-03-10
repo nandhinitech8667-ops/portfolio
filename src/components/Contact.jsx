@@ -10,7 +10,7 @@ export default function Contact() {
     const message = e.target.message.value;
 
     try {
-      const response = await fetch("http://localhost:5000/send", {
+      const response = await fetch("http://localhost:5000/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
